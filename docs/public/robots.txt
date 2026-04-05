@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pokehacking-fr.web.app/sitemap.xml
+Host: pokehacking-fr.web.app
