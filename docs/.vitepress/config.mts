@@ -18,6 +18,15 @@ export default defineConfig({
         text: 'Projets de source-hacking',
         items: [
           {
+            text: 'Rom-Hacks',
+            items: [
+              {
+                text: 'Qualité de Vie',
+                link: '/source-hacking-projects/custom/qol-list',
+              }
+            ]
+          },
+          {
             text: 'Décompilations',
             items: [
               {
