@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: "Tutoriels de source-hacking"
       link: /api-examples
+    - theme: alt
+      text: "Projet << Pokémon - Version Disthène >>"
+      link: /disthene
 
 features:
   - title: Pourquoi ce site ?
