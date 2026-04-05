@@ -1,5 +1,5 @@
 # Pokémon - Version Rubis et Saphir
-## Notes
+## I. Notes
 ::: danger ATTENTION
 Il n'existe pas de décompilation de la version Française de ces jeux, et cela parce qu'il n'y a juste pas assez de documentation, et que l'utilisation de ces jeux est très rare dans la communauté. 
 Pour ces précédentes raisons, je ne vois pas l'intérết de faire un article informatif dessus, cependant, cet avertissement et les conseils qui suivent restent valables.

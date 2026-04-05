@@ -1,5 +1,5 @@
 # Pokémon - Version Rouge Feu et Vert Feuille
-## Version Française
+## I. Version Française
 La décompilation de la version Française, que je maintiens, est disponible sur ce lien:
 https://github.com/qigast/pokerougefeu.
 
@@ -15,7 +15,7 @@ Cette décompilation, une fois compilée, produit les ROMs dont les informations
 Même si cette version est compatible avec tous les outils (`porymap`, `poryscript`, etc.), elle est *plus ou moins en retard* par rapport à la version Américaine.
 :::
 
-## Version Américaine
+## II. Version Américaine
 La décompilation de la version Américaine, maintenue par **pret**, est disponible sur ce lien:
 https://github.com/pret/pokefirered
 
