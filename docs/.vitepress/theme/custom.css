@@ -115,6 +115,18 @@ body {
     font-size: 0.95em;
 }
 
+.vp-doc .custom-block.details summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.vp-doc .custom-block.details summary::before {
+    content: "🔍";
+    line-height: 1;
+    font-size: 0.95em;
+}
+
 .vp-doc .custom-block.info .custom-block-title::before {
     content: "ℹ️";
 }
@@ -132,9 +144,6 @@ body {
     content: "❌";
 }
 
-.vp-doc .custom-block.details .custom-block-title::before {
-    content: "🔍";
-}
 
 /* Minimal button behavior */
 .VPButton,
