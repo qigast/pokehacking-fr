@@ -9,12 +9,12 @@ hero:
   actions:
     - theme: brand
       text: "Projets de source-hacking"
-      link: /markdown-examples
+      link: /source-hacking-projects
     - theme: brand
       text: "Tutoriels de source-hacking"
-      link: /api-examples
+      link: /source-hacking-tutorials
     - theme: alt
-      text: "Projet << Pokémon - Version Disthène >>"
+      text: "Projet “Pokémon - Version Disthène”"
       link: /disthene
 
 features:
