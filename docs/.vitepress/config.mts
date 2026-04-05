@@ -21,15 +21,15 @@ export default defineConfig({
             text: 'Décompilations',
             items: [
               {
-                text: 'Décompilation de Pokémon - Version Emeraude',
+                text: 'Pokémon - Version Emeraude',
                 link: '/source-hacking-projects/decomps/pokeemeraude',
               },
               {
-                text: 'Décompilation de Pokémon - Version Rouge Feu et Vert Feuille',
+                text: 'Pokémon - Version Rouge Feu et Vert Feuille',
                 link: '/source-hacking-projects/decomps/pokerougefeu',
               },
               {
-                text: 'Décompilation de Pokémon - Version Rubis',
+                text: 'Pokémon - Version Rubis et Saphir',
                 link: '/source-hacking-projects/decomps/pokerubis',
               }
             ]
