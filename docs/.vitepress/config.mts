@@ -7,8 +7,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Accueil', link: '/' },
+      { text: 'Projets de source-hacking', link: '/source-hacking-projects' },
+      { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials' },
+      { text: 'Projet “Pokémon - Version Disthène”', link: '/disthene' }
     ],
 
     sidebar: [
@@ -33,6 +35,7 @@ export default defineConfig({
 
     outline: {
       label: 'Dans cet article',
+      level: "deep",
     },
 
     darkModeSwitchLabel: 'Apparence',
