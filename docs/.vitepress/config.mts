@@ -15,10 +15,25 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Projets de source-hacking',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: 'Décompilations',
+            items: [
+              {
+                text: 'Décompilation de Pokémon - Version Emeraude',
+                link: '/source-hacking-projects/decomps/pokeemeraude',
+              },
+              {
+                text: 'Décompilation de Pokémon - Version Rouge Feu et Vert Feuille',
+                link: '/source-hacking-projects/decomps/pokerougefeu',
+              },
+              {
+                text: 'Décompilation de Pokémon - Version Rubis',
+                link: '/source-hacking-projects/decomps/pokerubis',
+              }
+            ]
+          },
         ]
       }
     ],
@@ -42,5 +57,11 @@ export default defineConfig({
     lightModeSwitchTitle: 'Mode clair',
     darkModeSwitchTitle: 'Mode sombre',
     returnToTopLabel: 'Retour en haut',
+
+    notFound: {
+      title: 'PAGE INTROUVABLE',
+      linkText: 'Retourner à l\'accueil',
+      quote: 'Oups, la page que vous cherchez n\'existe pas !'
+    }
   }
 })
