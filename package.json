@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "qigast",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
 }
