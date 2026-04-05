@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "PokéHack-FR",
+  title: "pokehacking-fr",
   description: "Un site de référence français pour le Rom-Hacking des jeux Pokémon de la 3G!",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
