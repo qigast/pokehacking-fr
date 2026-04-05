@@ -55,7 +55,7 @@ export default defineConfig({
       ['meta', { property: 'og:url', content: canonicalUrl }],
     ]
   },
-  title: 'Hacking Pokémo FR',
+  title: 'Hacking Pokémon FR',
   description: siteDescription,
   ignoreDeadLinks: [
     /https:\/\/datomatic\.no-intro\.org\/.*/,
