@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import sidebar from './sidebar'
 
 const siteUrl = 'https://pokehacking-fr.web.app'
 const siteDescription = 'Un site de référence français pour le Rom-Hacking des jeux Pokémon de la 3G!'
@@ -70,55 +71,7 @@ export default defineConfig({
       { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials/base/source-hacking-deep-dive' },
       { text: 'Projet “Pokémon - Version Disthène”', link: '/disthene' }
     ],
-
-    sidebar: [
-      {
-        text: 'Projets de source-hacking',
-        items: [
-          {
-            text: 'Rom-Hacks',
-            items: [
-              {
-                text: 'Qualité de Vie',
-                link: '/source-hacking-projects/custom/qol-list',
-              }
-            ]
-          },
-          {
-            text: 'Décompilations',
-            items: [
-              {
-                text: 'Pokémon - Version Emeraude',
-                link: '/source-hacking-projects/decomps/pokeemeraude',
-              },
-              {
-                text: 'Pokémon - Version Rouge Feu et Vert Feuille',
-                link: '/source-hacking-projects/decomps/pokerougefeu',
-              },
-              {
-                text: 'Pokémon - Version Rubis et Saphir',
-                link: '/source-hacking-projects/decomps/pokerubis',
-              }
-            ]
-          },
-        ]
-      },
-      {
-        text: 'Tutoriels de source-hacking',
-        items: [
-          {
-            text: 'Tutoriels de base',
-            items: [
-              {
-                text: 'Le source-hacking, en profondeur',
-                link: '/source-hacking-tutorials/base/source-hacking-deep-dive',
-              }
-            ]
-          }
-        ]
-      }
-    ],
-
+    sidebar: sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/qigast' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/qigast.bsky.social' }
