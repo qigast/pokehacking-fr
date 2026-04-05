@@ -24,6 +24,20 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/qigast' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/qigast.bsky.social' }
-    ]
+    ],
+
+    docFooter: {
+      next: 'Article suivant',
+      prev: 'Article précédent'
+    },
+
+    outline: {
+      label: 'Dans cet article',
+    },
+
+    darkModeSwitchLabel: 'Apparence',
+    lightModeSwitchTitle: 'Mode clair',
+    darkModeSwitchTitle: 'Mode sombre',
+    returnToTopLabel: 'Retour en haut',
   }
 })
