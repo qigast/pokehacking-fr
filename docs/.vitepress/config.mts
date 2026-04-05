@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "pokehacking-fr",
   description: "Un site de référence français pour le Rom-Hacking des jeux Pokémon de la 3G!",
+  ignoreDeadLinks: [
+    /https:\/\/datomatic\.no-intro\.org\/.*/
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
