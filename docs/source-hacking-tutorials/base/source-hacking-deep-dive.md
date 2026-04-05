@@ -1,5 +1,11 @@
 # Le source-hacking, en profondeur
-## I. Etymologie
+Tout d'abord, avant de bien commencer, je tiens à définir plusieurs termes qui seront utilisés dans tout ce site, et je tiens à repondre aux questions essentielles avant de "choisir" quelle approche prendre pour un projet de rom-hacking. C'est tout ce que cet article va couvrir, et je recommande fortement de le lire en entier avant de se lancer dans un projet de source-hacking, ou de rom-hacking en général.
+
+## I. Termes
+### 1. Fichier binaire
+Un fichier binaire, ou un binaire, est un fichier qui contient des données formatées de telle façon à ce qu'elle ne sont pas "lisibles". Un binaire peut être un exécutable (comme un logiciel, un jeu, etc.), ou un fichier de données (une image, de la musique, etc.), ou une ROM (comme les jeux Pokémon de la 3G).
+
+### 2. Source-hacking
 Le source-hacking, ou "decomp hacking" en Anglais, provient de la contraction de "source code" et "hacking". Le terme "source code" fait référence au code source, ce qui *constitue* en quelque sorte un programme. Le terme "hacking" signifie l'acte de *modifier* ou de *manipuler* quelque chose afin d'atteindre un resultat souhaité.
 
 ## II. Qu'est-ce que le source-hacking ?
@@ -10,7 +16,7 @@ Le source-hacking, dans notre contexte, est une technique de modification du cod
 \* Pokémon Rubis et Saphir n'ont pas encore été décompilées vers leurs versions Françaises, et sont généralement peu recommandables pour les débutants.
 :::
 
-Comme établi précédemment, le code source des jeux est écrit en `C`, c'est un langage de programmation de haut niveau (comparé à l'assembleur, par exemple), mais qui garde quand même une certaine proximité avec la machine.
+Comme établi précédemment, le code source des jeux est écrit en `C`, c'est un langage de programmation de haut niveau (comparé à l'assembleur, par exemple), mais qui garde quand même une certaine proximité avec la machine. Ce langage est "écrit" dans des fichiers textuels, avec l'extension `.c` (pour les fichiers de code), et `.h` (pour les fichiers d'en-tête, qui contiennent des déclarations de fonctions, de variables, etc.). Ces fichiers textuels sont ensuite traités par un *compilateur*, qui donnera le binaire final.
 
 ::: warning ATTENTION
 Les gens pensent souvent que le source-hacking nécessite une connaissance approfondie du langage `C`, mais ce n'est pas nécessairement vrai. Bien que cela soit *très* utile (que ce soit pour le source-hacking, ou pour les capacités de raisonnement en général), il est tout à fait possible de réaliser un projet sans *jamais* avoir à coder en `C` à proprement parler.
@@ -83,7 +89,7 @@ void foo(void) {
     }
 }
 ```
-Comme pour la comparaison précédente, la version en `C` est bien plus simple à comprendre.
+Comme pour la comparaison précédente, la version en `C` est bien plus simple à comprendre, et elle permet aussi d'éviter plusieurs complications, comme la définition de deux nouveaux labels, juste pour une condition, comme dans le script `XSE`.
 
 Tout ça pour dire que, même si le langage `C` peut paraître intimidant au début, il est beaucoup plus simple à comprendre, à mettre en oeuvre, et à maintenir que l'assembleur ou les scripts de `XSE`<sup>1</sup>. 
 
@@ -128,7 +134,7 @@ Les injections de code `C` sont une technique de **hacking binaire**, qui consis
 :::
 
 ## V. Pourquoi faire du source-hacking ?
-Nous arrivons *enfin* dans le vif du sujet, pourquoi faire du source-hacking ?
+Nous arrivons *enfin* dans le vif du sujet, pourquoi faire du source-hacking ? Cette comparaison, quoique générale, est *plus* focalisée vers ceux qui s'y connaissent déjà un peu en hacking binaire. Bien sûr, je n'écarte pas la possibilité que des gens qui se lancent dans la scène passent directement par le source-hacking, et c'est même beaucoup mieux.
 
 ### 1. La notion d'*offsets* n'existe pratiquement pas
 Sauf si vous *y* tenez vraiment, et que vous faites *en sorte* d'utiliser des offsets.
