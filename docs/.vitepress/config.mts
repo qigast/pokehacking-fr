@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Projets de source-hacking', link: '/source-hacking-projects/decomps/pokeemeraude' },
-      { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials' },
+      { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials/base/source-hacking-deep-dive' },
       { text: 'Projet “Pokémon - Version Disthène”', link: '/disthene' }
     ],
 
@@ -43,6 +43,20 @@ export default defineConfig({
               }
             ]
           },
+        ]
+      },
+      {
+        text: 'Tutoriels de source-hacking',
+        items: [
+          {
+            text: 'Tutoriels de base',
+            items: [
+              {
+                text: 'Le source-hacking, en profondeur',
+                link: '/source-hacking-tutorials/base/source-hacking-deep-dive',
+              }
+            ]
+          }
         ]
       }
     ],

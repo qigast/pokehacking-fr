@@ -12,7 +12,7 @@ hero:
       link: /source-hacking-projects/decomps/pokeemeraude
     - theme: brand
       text: "Tutoriels de source-hacking"
-      link: /source-hacking-tutorials
+      link: /source-hacking-tutorials/base/source-hacking-deep-dive
     - theme: alt
       text: "Projet “Pokémon - Version Disthène”"
       link: /disthene
