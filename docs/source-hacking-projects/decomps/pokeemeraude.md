@@ -1,6 +1,6 @@
 # Pokémon - Version Emeraude
 ## Version Française
-La décompilation de la version Française, que je maintiens, est disponible sur ce lien :
+La décompilation de la version Française, que je maintiens, est disponible sur ce lien:
 https://github.com/qigast/pokeemeraude.
 
 ::: details DETAILS
@@ -10,7 +10,7 @@ Cette décompilation, une fois compilée, produit une ROM dont les informations 
 :::
 
 ## Version Américaine
-La décompilation de la version Américaine, maintenue par **pret**, est disponible cet autre lien :
+La décompilation de la version Américaine, maintenue par **pret**, est disponible sur ce lien:
 https://github.com/pret/pokeemerald.
 
 ::: details DETAILS
