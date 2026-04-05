@@ -140,6 +140,16 @@ export default defineConfig({
       title: 'PAGE INTROUVABLE',
       linkText: 'Retourner à l\'accueil',
       quote: 'Oups, la page que vous cherchez n\'existe pas !'
+    },
+
+    lastUpdated: {
+      text: 'Dernière mise à jour',
+      formatOptions: {
+        dateStyle: 'long',
+        timeStyle: 'short',
+        forceLocale: true,
+        localeMatcher: 'lookup',
+      }
     }
   }
 })
