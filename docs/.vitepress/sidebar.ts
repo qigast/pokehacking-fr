@@ -41,6 +41,10 @@ export default [
                     {
                         text: 'Le source-hacking, en profondeur',
                         link: '/source-hacking-tutorials/base/source-hacking-deep-dive',
+                    },
+                    {
+                        text: 'Les types de données',
+                        link: '/source-hacking-tutorials/base/datatypes'
                     }
                 ]
             }
