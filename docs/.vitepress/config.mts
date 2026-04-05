@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Projets de source-hacking', link: '/source-hacking-projects' },
+      { text: 'Projets de source-hacking', link: '/source-hacking-projects/decomps/pokeemeraude' },
       { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials' },
       { text: 'Projet “Pokémon - Version Disthène”', link: '/disthene' }
     ],

@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: "Projets de source-hacking"
-      link: /source-hacking-projects
+      link: /source-hacking-projects/decomps/pokeemeraude
     - theme: brand
       text: "Tutoriels de source-hacking"
       link: /source-hacking-tutorials
