@@ -57,7 +57,10 @@ export default defineConfig({
   title: 'Rom-Hacking Pokémon Français',
   description: siteDescription,
   ignoreDeadLinks: [
-    /https:\/\/datomatic\.no-intro\.org\/.*/
+    /https:\/\/datomatic\.no-intro\.org\/.*/,
+    "https://problemkaputt.de/gbatek.htm",
+    "https://www.gbadev.org/",
+    /https:\/\/github\.com\/.*/,
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
