@@ -24,5 +24,7 @@ features:
     details: "C'est l'action de modifier le code source d'un jeu, pour y effectuer les changements désirés, puis recompiler ce code source pour obtenir un tout nouveau jeu !"
   - title: Quels jeux sont concernés par ce site ?
     details: "Les jeux de la troisième génération, et spécifiquement ceux sortis sur la Game Boy Advance ! (Pokémon Rubis*, Saphir*, Émeraude, Rouge Feu et Vert Feuille)"
+  - title: Tutoriel vs. How-To ?
+    details: "Dans ce contexte, un tutoriel est comme un apprentissage approfondi d'un concept, en tenant la main du hacker tout au long de l'apprentissage. Un How-To, par contre, est une liste d'étapes qui nécessite une certaine acquisition des notions inculquées par les tutoriels. Les How-To ont pour but d'être concis et simples, sans avoir à rappeler chaque concept utilisé dans ce dernier."
 ---
 
