@@ -166,5 +166,39 @@ export default [
                 ]
             }
         ]
+    },
+    {
+        text: 'How-To du source-hacking',
+        items: [
+            {
+                text: 'Les notions fondamentales du How-To du source-hacking',
+                link: '/source-hacking-how-to/base/fundamental-concepts.md',
+            },
+            {
+                text: 'Mettre en place VSCode',
+                items: [
+                    {
+                        text: 'Installer VSCode',
+                    },
+                    {
+                        text: 'Installer et configurer Microsoft C/C++'
+                    },
+                ]
+            },
+            {
+                text: 'Ajouter le Split Physique/Spécial',
+                items: [
+                    {
+                        text: 'Ajouter la fonctionnalité du Split PSS',
+                    },
+                    {
+                        text: "Charger les icônes dans l'écran de résumé des Pokémon",
+                    },
+                    {
+                        text: "Charger les icônes dans les menus en combat"
+                    }
+                ]
+            },
+        ]
     }
 ] as DefaultTheme.Sidebar;

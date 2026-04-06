@@ -10,9 +10,12 @@ hero:
     - theme: brand
       text: "Projets de source-hacking"
       link: /source-hacking-projects/decomps/pokeemeraude
-    - theme: alt
+    - theme: brand
       text: "Tutoriels de source-hacking"
       link: /source-hacking-tutorials/base/source-hacking-deep-dive
+    - theme: alt
+      text: "How-To du source-hacking"
+      link: /source-hacking-how-to/base/fundamental-concepts
 
 features:
   - title: Pourquoi ce site ?

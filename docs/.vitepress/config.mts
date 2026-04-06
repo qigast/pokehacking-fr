@@ -69,6 +69,7 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Projets de source-hacking', link: '/source-hacking-projects/decomps/pokeemeraude' },
       { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials/base/source-hacking-deep-dive' },
+      { text: 'How-To du source-hacking', link: '/source-hacking-how-to/base/fundamental-concepts'},
     ],
     sidebar: sidebar,
     socialLinks: [
