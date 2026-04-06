@@ -190,6 +190,14 @@ Si vous voulez supprimer des dresseurs, des objets, des Pokémon, des maps, ou t
 La suppression des maps est toutefois déconseillée, parce que les constantes des maps sont réferencées un peu partout. Si cela vous enchante de régler toutes les erreurs de compilation quand une map est supprimée, alors ignorez cet avertissement, dans le cas contraire, il est préférable de grouper toutes les maps dont vous n'avez pas besoin dans un `MapGroup` spécifique, et de ne juste *jamais plus* y toucher.
 :::
 
+
+### 10. *Tous* les systèmes d'exploitation sont supportés
+Pour le hacking binaire, `HMA` est devenu l'un des outils standards *à utiliser*, cependant, `HMA` n'est **disponible que sur Windows**. Cette exclusivité limite grandement les utilisateurs d'autres OS<sup>13</sup>, et les force à soit:
+- Trouver un PC avec *Windows 10*, et l'utiliser pour du Rom-Hacking.
+- Utiliser une machine virtuelle de *Windows 10*, et y faire du Rom-Hacking.
+
+Ces contraintes sont extrêmement ennuyantes, mais elles ne *sont pas présentes* dans le source-hacking. Il y a des tutoriels dédiés pour chaque OS (Rien que l'installation, parce que c'est ce qui diffère entre OS), et *tous* les outils sont open-source (et codés dans des langages *multi-plateforme*), ce qui permet de les compiler vous-même si jamais vous utilisez un OS obscur.
+
 Je pense avoir fait le tour de tout ce qui me venait en tête, cependant, gardez à l'esprit qu'il y a sûrement bien plus d'avantages que je n'ai mentionnés. Le seul réel inconvénient avec le source-hacking est la mise en place de l'environnement, passé cette étape, et vous ne reviendrez *très probablement* plus en arrière.
 
 ## VI. Notes
@@ -221,3 +229,4 @@ Même si, comme pour la connaissance du langage `C`, la familiarité avec les co
 | 10 | Les 20% restants viennent du fait qu'il faut quand même effectuer des changement préliminaires, qui dépendent du code à modifier. |
 | 11 | Ceux familiers avec le hacking binaire sont sûrement plus habitués au terme "bloc", mais dans tout le code, ce sont des "metatiles", et non des blocs. |
 | 12 | Pour référence, le nombre maximum de metatiles (Tileset 1 + 2) pour Emeraude est de `1024`. |
+| 13 | OS (Operating System) est l'Anglais pour "Système d'Exploitation". |
