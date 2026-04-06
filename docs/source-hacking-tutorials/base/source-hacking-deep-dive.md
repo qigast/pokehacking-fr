@@ -1,6 +1,14 @@
 # Le source-hacking, en profondeur
 Tout d'abord, avant de bien commencer, je tiens à définir plusieurs termes qui seront utilisés dans tout ce site, et je tiens à repondre aux questions essentielles avant de "choisir" quelle approche prendre pour un projet de rom-hacking. C'est tout ce que cet article va couvrir, et je recommande fortement de le lire en entier avant de se lancer dans un projet de source-hacking, ou de rom-hacking en général.
 
+::: tip CONSEIL
+Contrairement au hacking binaire, où presque\* tout était servi sur une assiette pour les hackers *dès qu'une recherche considérable* ait abouti, ce n'est pas vraiment le même cas pour le source-hacking. 
+
+Les modifications concernant le code *requièrent* que le hacker raisonne un minimum par rapport aux modifications qu'il veut effectuer, et il n'y aura *évidemment* pas de tutoriel pour tout.
+
+Cependant, ce n'est pas pour intimider les débutants, et c'est au contraire pour les encourager à se familiariser avec le source-hacking et les projets de décompilation. Arriver au résultat souhaité est simple, tant que vous raisonnez au préalable, et que vous comprenez le contexte du système dans lequel vous voulez effectuer des modifications.
+:::
+
 ## I. Termes
 ### 1. Fichier binaire
 Un fichier binaire, ou un binaire, est un fichier qui contient des données formatées de telle façon à ce qu'elle ne sont pas "lisibles". Un binaire peut être un exécutable (comme un logiciel, un jeu, etc.), ou un fichier de données (une image, de la musique, etc.), ou une ROM (comme les jeux Pokémon de la 3G).
