@@ -196,6 +196,14 @@ textarea,
     font-size: clamp(0.9rem, 0.88rem + 0.1vw, 0.96rem);
 }
 
+/* Keep Source Sans 3 text size consistent in block bodies and tables */
+.vp-doc .custom-block,
+.vp-doc table,
+.vp-doc table td,
+.vp-doc table th {
+    font-size: 1em;
+}
+
 .vp-doc .custom-block .custom-block-title {
     display: inline-flex;
     align-items: center;
