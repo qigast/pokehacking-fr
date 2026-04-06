@@ -43,9 +43,43 @@ export default [
                         link: '/source-hacking-tutorials/base/source-hacking-deep-dive',
                     },
                     {
+                        text: 'Les notions fondamentales du source-hacking',
+                        link: '/source-hacking-tutorials/base/fundamental-concepts',
+                    },
+                    {
                         text: 'Les types de données en Rom-Hacking, dans le langage `C`',
                         link: '/source-hacking-tutorials/base/datatypes'
                     }
+                ]
+            },
+            {
+                text: 'Installation de `pokeemeraude`',
+                items: [
+                    {
+                        text: 'Installation de `pokeemeraude` sur Windows',
+                        link: '/source-hacking-tutorials/setting-up-the-decomps/windows-installation',
+                    },
+                    {
+                        text: 'Installation de `pokeemeraude` sur Linux',
+                        link: '/source-hacking-tutorials/setting-up-the-decomps/linux-installation',
+                    },
+                    {
+                        text: 'Installation de `pokeemeraude` sur MacOS',
+                        link: '/source-hacking-tutorials/setting-up-the-decomps/macos-installation'
+                    }
+                ]
+            },
+            {
+                text: 'Tutoriels sur Git',
+                items: [
+                    {
+                        text: 'Installation de Git',
+                        link: '/source-hacking-tutorials/git/installing',
+                    },
+                    {
+                        text: 'Fonctionnalités fondamentales de Git',
+                        link: '/source-hacking-tutorials/git/fundamental-features'
+                    },
                 ]
             }
         ]
