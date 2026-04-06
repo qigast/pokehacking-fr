@@ -102,6 +102,68 @@ export default [
                         link: '/source-hacking-tutorials/mapping/deleting-a-map',
                     }
                 ]
+            },
+            {
+                text: 'V. Tutoriels de Scripting',
+                items: [
+                    {
+                        text: 'Les notions fondamentales du scripting',
+                        link: '/source-hacking-tutorials/scripting/fundamental-concepts',
+                    },
+                    {
+                        text: "Le scripting, concrètement",
+                        link: '/source-hacking-tutorials/scripting/concrete-scripting'
+                    },
+                    {
+                        text: "Les messages",
+                        link: '/source-hacking-tutorials/scripting/object-event-messages',
+                    },
+                    {
+                        text: "Les états des objets",
+                        link: '/source-hacking-tutorials/scripting/object-event-states',
+                    },
+                    {
+                        text: "Le warping",
+                        link: '/source-hacking-tutorials/scripting/warping'
+                    },
+                    {
+                        text: 'Les combats de dresseurs',
+                        link: '/source-hacking-tutorials/scripting/trainer-battles'
+                    },
+                    {
+                        text: "Les Pokémons",
+                        link: '/source-hacking-tutorials/scripting/pokemon',
+                    },
+                    {
+                        text: "Les objets du sac",
+                        link: '/source-hacking-tutorials/scripting/bag-items',
+                    },
+                    {
+                        text: "L'argent",
+                        link: '/source-hacking-tutorials/scripting/money',
+                    },
+                    {
+                        text: "Instructions intéressantes",
+                        link: '/source-hacking-tutorials/scripting/interesting-instructions'
+                    }
+                ]
+            },
+            {
+                text: 'VI. Tutoriels de Scripting (PoryScript)',
+                items: [
+                    {
+                        text: 'Installation de PoryScript',
+                        link: '/source-hacking-tutorials/poryscript/installation',
+                    },
+                    {
+                        text: 'Avantages de PoryScript',
+                        link: '/source-hacking-tutorials/poryscript/advantages'
+                    },
+                    {
+                        text: "Le contrôle du flux d'éxecution des scripts",
+                        link: '/source-hacking-tutorials/poryscript/control-flow',
+                    }
+                ]
             }
         ]
     }

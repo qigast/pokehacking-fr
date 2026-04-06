@@ -10,6 +10,7 @@
 ### 1. Les objets
 ### 2. Les triggers
 ### 3. Les signposts
+### 4. Les warps
 ## III. Les `mapscript`s
 ### 1. Qu'est-ce qu'un `mapscript` ?
 ### 2. Pourquoi utiliser des `mapscript`s ?
