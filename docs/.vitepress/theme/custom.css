@@ -1,7 +1,6 @@
 @font-face {
-    font-family: "Fira Code Custom";
-    src: url("/fonts/FiraCode-Regular.woff2") format("woff2"),
-         url("/fonts/FiraCode-Regular.woff") format("woff");
+    font-family: "Kinova";
+    src: url("/fonts/KINOVA.otf") format("opentype");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -49,7 +48,7 @@
     --vp-button-border-radius: 4px;
     --vp-layout-max-width: 1320px;
 
-    --vp-font-family-base: "Fira Code Custom", "Fira Code", monospace;
+    --vp-font-family-base: "Kinova", "Segoe UI", sans-serif;
     --vp-font-family-mono: "Fira Code Custom", "Fira Code", monospace;
 }
 
@@ -97,13 +96,18 @@ input,
 select,
 textarea,
 .vp-doc,
-.vp-doc code,
-.vp-doc kbd,
-.vp-doc pre,
 .VPNav,
 .VPSidebar,
 .VPFooter {
     font-family: var(--vp-font-family-base);
+}
+
+.vp-doc code,
+.vp-doc kbd,
+.vp-doc pre,
+.vp-doc pre code {
+    font-family: var(--vp-font-family-mono);
+    font-weight: 700;
 }
 
 /* Keep interface calm and low-contrast */
