@@ -81,6 +81,27 @@ export default [
                         link: '/source-hacking-tutorials/git/fundamental-features'
                     },
                 ]
+            },
+            {
+                text: 'IV. Tutoriels de Mapping',
+                items: [
+                    {
+                        text: 'Installation de Porymap',
+                        link: '/source-hacking-tutorials/mapping/installing-porymap',
+                    },
+                    {
+                        text: 'Les notions fondamentales du mapping',
+                        link: '/source-hacking-tutorials/mapping/fundamental-concepts',
+                    },
+                    {
+                        text: 'Manipuler une map (création, modification, etc.)',
+                        link: '/source-hacking-tutorials/mapping/manipulate-a-map',
+                    },
+                    {
+                        text: 'Suppression d\'une map',
+                        link: '/source-hacking-tutorials/mapping/deleting-a-map',
+                    }
+                ]
             }
         ]
     }
