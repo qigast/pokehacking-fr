@@ -42,6 +42,21 @@ export default defineConfig({
         name: 'Qigast',
       },
     })],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-MVXVZW0J1D',
+      }
+    ],
+    [
+      'script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MVXVZW0J1D');
+      `
+    ]
   ],
   transformHead: ({ pageData }) => {
     const relativePath = pageData.relativePath
@@ -69,7 +84,7 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Projets de source-hacking', link: '/source-hacking-projects/decomps/pokeemeraude' },
       { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials/base/source-hacking-deep-dive' },
-      { text: 'How-To du source-hacking', link: '/source-hacking-how-to/base/fundamental-concepts'},
+      { text: 'How-To du source-hacking', link: '/source-hacking-how-to/base/fundamental-concepts' },
     ],
     sidebar: sidebar,
     socialLinks: [
