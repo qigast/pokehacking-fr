@@ -10,12 +10,9 @@ hero:
     - theme: brand
       text: "Projets de source-hacking"
       link: /source-hacking-projects/decomps/pokeemeraude
-    - theme: brand
+    - theme: alt
       text: "Tutoriels de source-hacking"
       link: /source-hacking-tutorials/base/source-hacking-deep-dive
-    - theme: alt
-      text: "Projet “Pokémon - Version Disthène”"
-      link: /disthene
 
 features:
   - title: Pourquoi ce site ?

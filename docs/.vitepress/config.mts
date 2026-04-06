@@ -69,7 +69,6 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Projets de source-hacking', link: '/source-hacking-projects/decomps/pokeemeraude' },
       { text: 'Tutoriels de source-hacking', link: '/source-hacking-tutorials/base/source-hacking-deep-dive' },
-      { text: 'Projet “Pokémon - Version Disthène”', link: '/disthene' }
     ],
     sidebar: sidebar,
     socialLinks: [

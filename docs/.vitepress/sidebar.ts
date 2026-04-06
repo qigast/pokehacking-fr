@@ -5,7 +5,7 @@ export default [
         text: 'Projets de source-hacking',
         items: [
             {
-                text: 'Rom-Hacks',
+                text: 'I. Rom-Hacks',
                 items: [
                     {
                         text: 'Qualité de Vie',
@@ -14,7 +14,7 @@ export default [
                 ]
             },
             {
-                text: 'Décompilations',
+                text: 'II. Décompilations',
                 items: [
                     {
                         text: 'Pokémon - Version Emeraude',
@@ -36,7 +36,7 @@ export default [
         text: 'Tutoriels de source-hacking',
         items: [
             {
-                text: 'Tutoriels de base',
+                text: 'I. Tutoriels de base',
                 items: [
                     {
                         text: 'Le source-hacking, en profondeur',
@@ -53,7 +53,7 @@ export default [
                 ]
             },
             {
-                text: 'Installation de `pokeemeraude`',
+                text: 'II. Installation de `pokeemeraude`',
                 items: [
                     {
                         text: 'Installation de `pokeemeraude` sur Windows',
@@ -70,7 +70,7 @@ export default [
                 ]
             },
             {
-                text: 'Tutoriels sur Git',
+                text: 'III. Tutoriels sur Git',
                 items: [
                     {
                         text: 'Installation de Git',
