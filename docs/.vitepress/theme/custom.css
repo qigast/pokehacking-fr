@@ -15,6 +15,22 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Source Sans 3 Custom";
+    src: url("/fonts/SourceSans3-Regular.otf.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Source Sans 3 Custom";
+    src: url("/fonts/SourceSans3-Bold.otf.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
 :root {
     /* Neutral minimalist palette */
     --vp-c-bg: #fbfbfa;
@@ -48,7 +64,8 @@
     --vp-button-border-radius: 4px;
     --vp-layout-max-width: 1320px;
 
-    --vp-font-family-base: "Kinova", "Segoe UI", sans-serif;
+    --vp-font-family-base: "Source Sans 3 Custom", "Source Sans 3", "Segoe UI", sans-serif;
+    --vp-font-family-heading: "Kinova", "Segoe UI", sans-serif;
     --vp-font-family-mono: "Fira Code Custom", "Fira Code", monospace;
 }
 
@@ -83,7 +100,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 body {
@@ -96,10 +113,49 @@ input,
 select,
 textarea,
 .vp-doc,
-.VPNav,
-.VPSidebar,
 .VPFooter {
     font-family: var(--vp-font-family-base);
+    font-weight: 400;
+    font-synthesis: none;
+}
+
+.VPNav,
+.VPLocalNav,
+.VPSidebar,
+.VPDocAside,
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline,
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6,
+.vp-doc .header-anchor,
+.outline-title,
+.outline-link,
+.VPDocAsideOutline,
+.VPSidebarItem .text {
+    font-family: var(--vp-font-family-heading);
+    font-synthesis: none;
+}
+
+/* Prevent VitePress defaults from making regular text look semi-bold */
+.vp-doc p,
+.vp-doc li,
+.vp-doc a,
+.vp-doc blockquote,
+.vp-doc td,
+.vp-doc th,
+.vp-doc summary,
+.vp-doc span,
+.VPNav a,
+.VPSidebar a,
+.VPSidebarItem .text,
+.VPFooter,
+.VPFooter a {
+    font-weight: 400 !important;
 }
 
 .vp-doc code,
@@ -108,6 +164,7 @@ textarea,
 .vp-doc pre code {
     font-family: var(--vp-font-family-mono);
     font-weight: 700;
+    font-size: 0.93em;
 }
 
 /* Keep interface calm and low-contrast */
