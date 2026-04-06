@@ -200,6 +200,8 @@ textarea,
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
+    font-family: var(--vp-font-family-heading);
+    font-weight: 400;
 }
 
 .vp-doc .custom-block .custom-block-title::before {
@@ -212,6 +214,8 @@ textarea,
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
+    font-family: var(--vp-font-family-heading);
+    font-weight: 400;
 }
 
 .vp-doc .custom-block.details summary::before {
