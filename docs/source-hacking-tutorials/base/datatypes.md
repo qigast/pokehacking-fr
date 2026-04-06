@@ -1,4 +1,4 @@
-# Les types de données
+# Les types de données en Rom-Hacking, dans le langage `C`
 La `GBA`, comme toute autre plateforme, est capable de manipuler des données de différentes tailles, et de différents types. Ces types de données sont utilisés pour représenter des informations dans le code, et la manière dont ces informations sont stockées en mémoire. Même si, je le rappelle, la connaissance du langage `C` n'est pas *strictement* nécesssaire, connaître les types de données est néanmoins crucial pour comprendre comment le code opère, comment la `GBA` fonctionne, etc. C'est pour ça que les types de données font partie des bases du source-hacking, et que je les aborde dans cet article.
 
 ## I. Signe

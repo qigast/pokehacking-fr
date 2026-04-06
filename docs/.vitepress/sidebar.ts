@@ -43,7 +43,7 @@ export default [
                         link: '/source-hacking-tutorials/base/source-hacking-deep-dive',
                     },
                     {
-                        text: 'Les types de données',
+                        text: 'Les types de données en Rom-Hacking, dans le langage `C`',
                         link: '/source-hacking-tutorials/base/datatypes'
                     }
                 ]
