@@ -11,10 +11,6 @@ Cette décompilation, une fois compilée, produit les ROMs dont les informations
 - `sha1`: `4b5758c14d0a07b70ef3ef0bd7fa5e7ce6978672`
 :::
 
-::: warning ATTENTION
-Même si cette version est compatible avec tous les outils (`porymap`, `poryscript`, etc.), elle est *plus ou moins en retard* par rapport à la version Américaine.
-:::
-
 ## II. Version Américaine
 La décompilation de la version Américaine, maintenue par **pret**, est disponible sur ce lien:
 https://github.com/pret/pokefirered
