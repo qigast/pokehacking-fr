@@ -204,6 +204,11 @@ textarea,
     font-size: 1em;
 }
 
+.vp-doc table th {
+    font-family: var(--vp-font-family-heading);
+    font-weight: 400 !important;
+}
+
 .vp-doc .custom-block .custom-block-title {
     display: inline-flex;
     align-items: center;
