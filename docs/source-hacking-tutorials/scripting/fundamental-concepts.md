@@ -2,7 +2,7 @@
 ## I. Les labels
 
 ::: tip CONSEIL
-*Toutes* les instructions sont documentées dans le dossier `asm/macros/event.inc` de votre projet, quoique la documentation soit en Anglais.
+*Toutes* les instructions sont documentées dans le fichier `asm/macros/event.inc` de votre projet, quoique la documentation soit en Anglais.
 
 Il est beaucoup plus simple de réferencer ce fichier que de lire des tutoriels à chaque fois.
 :::
